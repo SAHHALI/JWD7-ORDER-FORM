@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+  /* border: 1px solid black; */
+}
+
+body {
+  font-family: "Poppins";
+}
+
+.bg-image {
+  /* The image used */
+  background-image: url("istockphoto-1081422898-612x612.jpg");
+
+  /* Add the blur effect */
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+
+  /* Full height */
+  height: 97vh;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+main {
+  border: 1px solid silver;
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 400px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.logo {
+  padding: 5px;
+  display: flex;
+  border-bottom: 1px solid silver;
+}
+
+.logo h2 {
+  font-family: "Dancing Script";
+  padding-left: 5px;
+}
+
+h3 {
+  text-align: center;
+  background-color: #7e1717;
+  color: white;
+}
+
+main ol {
+  padding: 10px;
+  list-style-type: none;
+}
+
+main ol li {
+  border-bottom: 1px solid #7e1717;
+  padding: 5px 10px;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+}
+
+main ol li span {
+  float: right;
+}
+
+#last-item {
+  border: none;
+  border-bottom: 1px solid silver;
+}
